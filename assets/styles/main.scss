@@ -1,4 +1,4 @@
-@use "header";
+@use 'header';
 
 :root {
   --kelajak-blue: #0066ff;
@@ -10,6 +10,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Inter, Arial, sans-serif;
@@ -19,12 +22,12 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* HEADER */
 .header {
   display: flex;
   align-items: center;
@@ -44,7 +47,6 @@ body {
   color: var(--kelajak-dark);
 }
 
-/* HERO */
 .hero {
   display: flex;
   align-items: center;

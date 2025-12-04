@@ -1,7 +1,33 @@
 .header {
-    nav {
-        a:last-child {
-            color: #fff;
-        }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  &-inner {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+  }
+  nav {
+    a {
+      margin-left: 18px;
+      text-decoration: none;
+      color: var(--kelajak-dark);
     }
+    a:last-child {
+      color: #fff;
+    }
+  }
+  .brand {
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
 }

@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <Pages />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-
-<script setup>
-import Pages from '../pages/index.vue'
-</script>
